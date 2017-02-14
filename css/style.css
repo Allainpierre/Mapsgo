@@ -1,0 +1,65 @@
+header{
+	z-index: 999;
+	box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+}
+.navbar-nav li{
+	margin-top: 10px;
+	margin-right: 10px;
+}
+li #full{
+	cursor: pointer;
+}
+.navbar-nav li:last-child{
+	margin-right: 0px;
+}
+#my_maps {
+	height: 600px;
+	width: 100%;
+	margin-top: 100px;
+}
+#my_maps.full{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	height: auto !important;
+	width: 75% !important;
+	margin-top: 52px;
+}
+#map-panel.full{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	height: 100% !important;
+	width: 25% !important;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding-top: 65px !important;
+}
+/* Track-Scrollbar */
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background-color: #aeaeae;
+    border-right: 1px solid #ccc;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #dedede;
+}
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #7e7e7e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #D4D4D4;
+}
+::-webkit-scrollbar-track-piece {
+	background-color: #fff;
+    border-right: 1px solid #ccc;
+}
+::-webkit-scrollbar-corner {
+    background-color: #aeaeae;
+}
